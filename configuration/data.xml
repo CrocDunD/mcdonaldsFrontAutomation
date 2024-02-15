@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Enviroment>
+    <!--General-->
+    <WaitTime>5</WaitTime>
+    <ScreenshotPath>C:/Users/daniels/PycharmProjects/final_project/allure-screen-shots/</ScreenshotPath>
+
+    <!--Web & API-->
+    <Browser>chrome</Browser>
+    <Url>https://www.adidas.co.il/en</Url>
+    <Api_Url>http://localhost:3000/</Api_Url>
+    <UserName>admin</UserName>
+    <Password>admin1</Password>
+    <Sub_Category_Count_CSV>C:/Users/daniels/PycharmProjects/Final_Automation Project_Daniel_Shavit/ddt/sub_category_count.csv</Sub_Category_Count_CSV>
+    <Filter_Specs_CSV>C:/Users/daniels/PycharmProjects/Final_Automation Project_Daniel_Shavit/ddt/filter_specs.csv</Filter_Specs_CSV>
+    <Main_Page_Strips>Who are you shopping for?,END OF SEASON SALE,New in Adidas,WHAT'S HOT</Main_Page_Strips>
+    <completed_percentage_upper_bound>0.5</completed_percentage_upper_bound>
+    <todo_id_to_update>11</todo_id_to_update>
+    <Album_Name>quidem molestiae enim</Album_Name>
+    <User_Id>1</User_Id>
+    <WebItemID>HQ2055</WebItemID>
+    <WebItemName>adilette essential slides</WebItemName>
+
+    <!--mobile-->
+    <MobileDevice>android</MobileDevice>
+    <UDID>R5CNC13EAWR</UDID>
+    <AppPackage>il.co.inmanage.mcdonalds</AppPackage>
+    <AppActivity>.activities.StartupActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <AppItemID>IG9030</AppItemID>
+    <AppItemName>samba og shoes</AppItemName>
+    <AppUserName>daniels@inmanage.net</AppUserName>
+    <AppPassWord>134679852@PoW</AppPassWord>
+    <Category>SHOES</Category>
+    <SubCategory>RUNNING</SubCategory>
+</Enviroment>
