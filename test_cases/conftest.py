@@ -10,7 +10,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 from utilities.common_ops import get_data, get_timestamp
-#from utilities.manage_pages import Manage_Pages
+from utilities.manage_pages import Manage_Pages
 
 #from utilities.event_listener import EventListener
 #from utilities.manage_pages import Manage_Pages
@@ -45,7 +45,7 @@ def init_mobile_driver_adidas(request):
     driver.implicitly_wait(int(get_data('WaitTime')))
     request.cls.driver = driver
     request.cls.action = action
-    #Manage_Pages.init_app_pages()
+    Manage_Pages.init_app_pages()
     driver.implicitly_wait(10)
 
     yield
